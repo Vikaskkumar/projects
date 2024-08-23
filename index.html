@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {display:flex;  
+            justify-content: center;
+            align-items: center;
+            color:white;
+            background-color:#8166fe;
+         }
+           
+            .box1
+            {
+                margin: 10px;
+                height:4%;
+                width:70%;
+                background-color:#9e0c3d;
+                border-radius: 10px;
+                display:inline-block;
+                text-align:center;
+                padding:10px;
+                /* margin-left:80px; */
+                animation: BOX 3s 1 alternate;
+
+            }
+            #button
+            {margin-top:20px;
+                 /* margin-left:300px; */
+                height:70px;
+               width:180px;
+               border-radius: 20px;
+               color:white;
+               background-color: #0c1713;
+               margin-left:120px
+            }
+            .container
+            {    
+                height: 1700px;
+                width: 90%;
+                border-radius: 40px;
+                background-color: #f1cfed;
+                animation: move 2s 1 alternate;
+
+            }
+            .inn{
+                height:25px;
+                width:150px
+            }
+            @keyframes move {
+            0% {
+                height:10px;
+        width:60px;
+    }
+  
+    100% {
+        height:1100px;
+        width:90%;
+    }
+}
+
+@keyframes BOX {
+            0% {
+        height:Opx;
+        width:20px;
+    }
+  
+    100% {
+height:4%;
+width:70%;
+    }
+}
+         
+    </style>
+   
+
+   
+</head>
+<body>
+
+   <div class="container">
+        <div class="box1">
+            <label for="bx1">ENGINEERING MATH</label>
+            &nbsp;<input  id="input1" type="text">
+            
+        </div>
+        <div class="box1">
+            <label for="bx1">TECHNICAL COMMUNICATION</label>
+            <input  id="input2" type="text">
+            
+        </div>
+        <div class="box1">
+            <label for="bx1">DIGIAL ELECTRONICS</label>
+            <input  id="input3" type="text">
+            
+        </div>
+        <div class="box1">
+            <label for="bx1">DATA STRUCTURE</label>
+            <input  id="input4" type="text">
+            
+        </div>
+        <div class="box1">
+            <label for="bx1">OBJECT ORIENTED PRO</label>
+            <input  id="input5" type="text">
+            
+        </div>
+        <div class="box1">
+            <label for="bx1">SOFTWARE ENGINEERING</label>
+            <input  id="input6" type="text">
+            
+        </div>
+        <div class="box1">
+            <label for="bx1">DSA LAB</label>
+            <input  id="input7" type="text">
+            
+        </div>
+        <div class="box1">
+            <label for="bx1">OOPS LAB</label>
+            <input  id="input8" type="text">
+            
+        </div>
+        <div class="box1">
+            <label for="bx1">SOFTWARE ENGINEERING LAB</label>
+            <input  id="input9" type="text">
+            
+        </div>
+        <div class="box1">
+            <label for="bx1">DIGITAL ELECRTRONICS LAB</label>
+            <input  id="input10" type="text">
+            
+        </div>
+        <div class="box1">
+            <label for="bx1">INDUSTRIAL TRAINING</label>
+            <input  id="input11" type="text">
+            
+        </div>
+
+        <div class="box1">
+            <label for="bx1">SODECA</label>
+            <input  id="input12" type="text">
+            
+        </div>
+        <div id="result"></div>
+        <div id="result2"></div>
+
+        <button id="button">click</button>
+
+    </div>
+
+
+   
+   <script src="cgpa.js"></script>
+</body>
+</html>
